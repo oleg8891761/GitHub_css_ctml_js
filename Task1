@@ -1,70 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Особистий веб-сайт | Демедовський Олег</title>
+    <!-- 1. Заголовок сторінки -->
+    <title>Особистий веб-сайт Іван Петренко - Практична робота №1</title>
+    <!-- 7. CSS стилі -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h>Демедовський Олег</h>
-        <p>Студент факультету ТЦР-22</p>
-        <nev>
-            <ul>
-                <li><a href="#home">Головна</a></li>
-                <li><a href="#about">Про менню</a></li>
-                <li><a href="#practical">Практичні работи</a></li>
-                <li><a href="#labs"></a>Лабораторні заняття</li>
-            </ul>
-        </nev>
-    </header>
-    <main id="home">
-        <section id="about">
-            <h2>Про мене</h2>
-            <img src="photo.jpg" alt="Фото студента Демедовський Олег" width="200">
-            <p><strong>Ім'я:</strong> Демедовський Олег</p>
-            <p><strong>Біографія:</strong>Дякую! Я студент другого курсу ТЦР-22, намагаюсь програмую, подобається
-                веб-технології і веб-дезайн.</p>
-            <p><strong>Контакти</strong> ivan.olegdemedovskij@gmail.com</p>
-        </section>
-        <section id="practical">
-            <h2>Практична робота</h2>
-            <ul>
-                <li>
-                    <a href="practical2.html">Практична работа №1</a>
-                    <a>Створення HTML-документа:</a>
-                </li>
-                <li>
-                    <a href="practical2.html">Практична работа2.</a>
-                    <p>Робота зі стилями CSS, блокова модель та верстка </p>
-                </li>
-            </ul>
-        </section>
 
-        <section id="labs">
-            <h2>Лабораторні занняття</h2>
+    <!-- 2. Меню навігації -->
+    <header>
+        <nav>
             <ul>
-                <li>
-                    <a href="lab1.html">Лабораторна работа №1</a>
-                    <p>Дослідження семантичної структури вебсторінок.</p>
-                </li>
+                <li><a href="index.html#home">Головна</a></li>
+                <li><a href="index.html#about">Про мене</a></li>
+                <li><a href="index.html#practical">Практичні роботи</a></li>
+                <li><a href="index.html#labs">Лабораторні заняття</a></li>
             </ul>
-            <a href="lab2.html">Лабораторна робота №2</a>
-            <p>Створення адаптованого меню навігації.</p>
-            </li>
-            <li>
+        </nav>
+    </header>
+
+    <main id="home">
+        <!-- Секція «Практична робота №1» з таблицею розкладу -->
+        <section id="practical-1">
+            <h2>Практична робота №1</h2>
+            <p><strong>Тема:</strong> Створення та базове форматування HTML-документа. Таблиці.</p>
+
+            <h3>Розклад занять на місяць</h3>
+            <div class="table-container">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Тиждень / Дати</th>
+                            <th>День тижня</th>
+                            <th>Дисципліна</th>
+                            <th>Вид заняття</th>
+                            <th>Аудиторія / Формат</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">Тиждень 1<br>(01.09 – 05.09)</td>
+                            <td>Понеділок</td>
+                            <td>Вебтехнології</td>
+                            <td>Лекція</td>
+                            <td>Ауд. 302</td>
+                        </tr>
+                        <tr>
+                            <td>Середа</td>
+                            <td>Вища математика</td>
+                            <td>Практична</td>
+                            <td>Ауд. 415</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Тиждень 2<br>(08.09 – 12.09)</td>
+                            <td>Понеділок</td>
+                            <td>Вебтехнології</td>
+                            <td>Лабораторна</td>
+                            <td>Комп. клас 204</td>
+                        </tr>
+                        <tr>
+                            <td>Четвер</td>
+                            <td>Програмне забезпечення</td>
+                            <td>Лекція</td>
+                            <td>Zoom</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Тиждень 3<br>(15.09 – 19.09)</td>
+                            <td>Вівторок</td>
+                            <td>Бази даних</td>
+                            <td>Лекція</td>
+                            <td>Ауд. 108</td>
+                        </tr>
+                        <tr>
+                            <td>П'ятниця</td>
+                            <td>Вебтехнології</td>
+                            <td>Практична</td>
+                            <td>Комп. клас 204</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Тиждень 4<br>(22.09 – 26.09)</td>
+                            <td>Середа</td>
+                            <td>Бази даних</td>
+                            <td>Лабораторна</td>
+                            <td>Комп. клас 310</td>
+                        </tr>
+                        <tr>
+                            <td>П'ятниця</td>
+                            <td>Комп'ютерні мережі</td>
+                            <td>Лекція</td>
+                            <td>Ауд. 212</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
     </main>
 
+    <!-- 6. Футер -->
     <footer>
-        <p>Контакти: olegdemedovskij@gmail.com | Телефон: +380 0507627116</p>
-        <p>Соціальні мережи: <a href="https:lincedin.com" tsrget="_blank">Gmail</a></p>
-        <p>Роки навчання: 2024 - 2028</p>
-        <p>GitHub: <a href="https:github.com/username/personal-site" target="_blank">Репрозиторій проєкту</a></p>
-        <p>© 2026 Демедовський Олег. Права захищені.</p>
+        <p>Контакти: ivan.petrenko@example.com | Телефон: +380 (XX) XXX-XX-XX</p>
+        <p>Соціальні мережі: <a href="https://linkedin.com" target="_blank">LinkedIn</a> | <a
+                href="https://t.me/username" target="_blank">Telegram</a></p>
+        <p>Роки навчання: 2024 – 2028</p>
+        <p>GitHub: <a href="https://github.com/username/personal-site" target="_blank">Репозиторій проєкту</a></p>
+        <p>© 2026 Іван Петренко. Усі права захищені.</p>
     </footer>
 
 </body>
