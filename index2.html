@@ -1,58 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <form>
-        <action="/sumblit-ur1" method="Post">
-            <div>
-                <label for="naame">Ваше ім'я:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <label for="email">Електронна пошта:</label>
-            <inpyt type="email" id="email" required>
-            </div>
+    <a href="index1.html#labs" title="Сторінка зі списком лабораторних робіт">Сторінка зі списком лабораторних робіт</a>
+    <br>
+    <form action="https://webhook.site/10c3e0fc-f9c2-452b-be03-d855e959ddaa" method="Post">
+        <div class="form-container">
+            <label class="row" for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-container">
+            <label class="row" for="surname">Ваше прізвище:</label>
+            <input type="text" id="surname" name="surname" required>
+        </div>
+          <div class="form-container">
+        <label class="row" for="email">Електронна пошта:</label>
+        <input type="email" id="email" required>
+          </div>
+        <div class="form-container">
+            <label class="row" for="pwd">Пароль користувача:</label>
+            <input type="password" id="pwd" name="password" minlegth="8" required autocomplete="current-password">
+        </div>
 
-            <div>
-                <label for="pwd">Пароль користувача:</label>
-                <input type="password" id="pwd" name="password" minlegth="8" required autocomplete="current-password">
-            </div>
 
-            <div>
-                <label for="sumbit">Відправка данних на сервер:</label>
-                <input type="sumbit" id="sumbit" name="sumbit" required> 
-            </div>
-
-            <div>
-                <label for="date">Данні:</label>
-                <input type="date" id="date" name="date" required>
-            </div>
-            <select name="birth_day" required>
-                <option value="" disabled selected>День</option>
-                <option value="06">1</option>
-                <option value="07">2</option>
-            </select>
-
-             <select name="birth_manth" required>
-                <option value="" disabled selected>Місяц</option>
-                <option value="06">Червень</option>
-                <option value="07">Липень</option>
-            </select>
-
-             <select name="birth_year" required>
-                <option value="" disabled selected>Рік</option>
-                <option value="2001">2001></option>
-                <option value="2000">2000</option>
-            </select>
-
-            <div>
-                
-
-<button type="sumbit">Надіслати</button>
+        <div class="form-container">
+            <label class="row" for="date">День народження:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        
+        <div class="form-container">
+            <label class="row" for="btnSubmit">Відправка данних на сервер:</label>
+            <input value="Надіслати" type="submit" id="btnSubmit"/>
+        </div>
     </form>
-    
+
 </body>
+
 </html>
