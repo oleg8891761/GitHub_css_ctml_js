@@ -5,7 +5,8 @@ a:last-child {
   color: red;
 }
 input:disabled {
-  background-color: grey;
+  background-color: gr
+ 
 }
 div>p {
   font-weight: 600;
