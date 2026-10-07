@@ -205,3 +205,7 @@ p::first-letter {
 a::after {
   content: "↗";
 }
+
+
+ul>li*
+

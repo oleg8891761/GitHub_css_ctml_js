@@ -1,0 +1,278 @@
+.main {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Outfit', sans-serif;
+    gap: 10px;
+}
+
+.left {
+    /*padding: 15px;*/
+    width: 15%;
+    border: 2px blue solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.left-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    /*align-items: center;*/
+}
+
+.site-name {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.site-name h3 {
+    margin: 2px 0px;
+}
+
+.right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.left-section {
+    padding: 15px;
+    border: 2px red solid;
+
+}
+
+.left-section ul {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.left-section ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.left-section ul li p {
+    margin: 0 2px;
+}
+
+.left-section ul li i {
+    font-size: 20px;
+
+}
+
+/*.header {
+    margin-bottom: 15px;
+}*/
+
+.video-content {
+
+    /*padding: 50px;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: space-around;
+}
+
+.card {
+    width: 23%;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;*/
+    align-items: flex-start;
+    background: white;
+
+}
+
+.shorts-container h3 {
+    margin: 2px 0px;
+}
+
+.shorts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.shorts-label {
+    display: flex;
+    flex-direction: start;
+
+}
+
+.shorts-card {
+    width: 15%;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;*/
+    align-items: flex-start;
+    background: white;
+
+}
+
+.shorts-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+
+}
+
+.card h3 {
+    margin: 2px 0px;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 2px 0px;
+
+    color: gray;
+}
+
+.video-info {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+
+}
+
+.left ul {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.nav ul li {
+    margin-top: 23px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 15px;
+    border-radius: 7px;
+    background: #DCDCDC;
+}
+
+.nav ul li a:hover {
+    background: black;
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.search-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-container {
+    width: 450px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    border-radius: 12px;
+    padding: 7px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 0;
+}
+
+.main-search {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.profile-container {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.account-btn {
+    background: blue;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.btn-info {
+    background: blue;
+    color: white;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+
+}
+
+.material-icons {
+    font-size: 24px;
+    color: gray;
+}
+
+.subscriptions li img {
+    width: 20px;
+    height: auto;
+
+}

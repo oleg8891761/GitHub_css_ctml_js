@@ -46,7 +46,7 @@
                         <tr>
                             <td rowspan="2">Тиждень 1<br>(01.09 – 05.09)</td>
                             <td>Понеділок</td>
-                            <td>Вебтехнології</td>
+                            <td>Гуманітарій</td>
                             <td>Лекція</td>
                             <td>Ауд. 302</td>
                         </tr>
@@ -106,9 +106,9 @@
         <p>Контакти: ivan.petrenko@example.com | Телефон: +380 (XX) XXX-XX-XX</p>
         <p>Соціальні мережі: <a href="https://linkedin.com" target="_blank">LinkedIn</a> | <a
                 href="https://t.me/username" target="_blank">Telegram</a></p>
-        <p>Роки навчання: 2024 – 2028</p>
+        <p>Роки навчання: 2021 – 2024</p>
         <p>GitHub: <a href="https://github.com/username/personal-site" target="_blank">Репозиторій проєкту</a></p>
-        <p>© 2026 Іван Петренко. Усі права захищені.</p>
+        <p>© 2024 Іван Петренко. Усі права захищені.</p>
     </footer>
 
 </body>
