@@ -1,0 +1,251 @@
+.layout {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 250px repeat(3, 1fr);
+    grid-template-rows: 80px repeat(2, 1fr);
+    grid-template-areas:
+        "h1  h2 h3 h4"
+        "sidebar m1 m2 m3"
+        "sidebar m4 m5 m6";
+    gap: 0px;
+    padding: 0px;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.header {
+    grid-area: header;
+    background: #f5f5f5;
+}
+
+.sidebar {
+    grid-area: sidebar;
+
+}
+
+.h1 {
+    grid-area: h1;
+
+}
+
+.h2 {
+    grid-area: h2;
+
+}
+
+.h3 {
+    grid-area: h3;
+
+}
+
+.h4 {
+    grid-area: h4;
+
+}
+
+.h4 {
+    grid-area: h4;
+}
+
+.h4 {
+    grid-area: h4;
+
+}
+
+.m3 {
+
+    grid-area: m3;
+    display: flex;
+    align-items: start;
+    /* по вертикалі */
+    justify-content: center;
+
+}
+
+.m4 {
+    grid-area: m4;
+    display: flex;
+    align-items: start;
+    /* по вертикалі */
+    justify-content: center;
+
+}
+
+.m5 {
+    grid-area: m5;
+    display: flex;
+    align-items: start;
+    /* по вертикалі */
+    justify-content: center;
+}
+
+.m6 {
+    grid-area: m6;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.layout>* {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.m6-1,
+.m6-2 {
+    border: 2px solid aliceblue;
+    padding: 5px;
+    /* background: aliceblue; */
+    display: ;
+    align-items: start;
+    /* по вертикалі */
+    justify-content: center;
+    color: black;
+    position: relative;
+
+}
+
+.square {
+    width: 3mm;
+    height: 3mm;
+    background-color: rgb(253, 250, 250);
+    ;
+    ;
+    /* Цвет для видимости квадрата */
+}
+
+.custom-list {
+    list-style: none;
+    height: 500vh;
+}
+
+.caption {
+    display: block;
+    font-weight: bold;
+}
+
+.marker {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 0.2mm solid #333333;
+    background-color: transparent;
+    margin-right: 50px;
+}
+
+.steps {
+    height: 500px;
+    /* висота контейнера */
+    display: flex;
+    flex-direction: column;
+    /* елементи зверху вниз */
+    justify-content: space-between;
+}
+
+.line {
+    display: flex;
+    align-items: right ;
+    /*width: 100%;*/
+}
+
+.line::after {
+    content: "";
+    flex:0 0 10px;
+    height: 10px;
+    margin-left: auto;
+    border: 1px solid black;
+}
+
+.m1 {
+   grid-area: m1;
+}
+
+.m2 {
+    grid-area: m2;
+}
+
+.m3 {
+    grid-area: m3;
+}
+
+.m4 {
+    grid-area: m4;
+}
+
+.m5 {
+    grid-area: m5;
+}
+
+.m1,
+.m2,
+.m3,
+.m4,
+.m5 {
+    display: grid;
+    justify-items: center;
+    align-items:start ;
+    position: relative ;
+}
+
+.m1::after,
+.m2::after,
+.m3::after,
+.m4::after,
+.m5::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+/* .line { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ } */
+
+.line_end {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.grid-container {
+    display:grid;
+    width: 200px;
+    height: 200 px;
+    background-color: #f0f0f0;
+    border: 200px solid #333;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background-color: #4caf50;
+    color: white;
+
+}
+
+
+
+/*justify-times: end;
+ilign-items: end;*/

@@ -1,0 +1,134 @@
+.layout {
+    display: grid;
+    height: 100vh;
+
+    border: 1px solid #ccc;
+
+    grid-template-columns: 250px repeat(3, 1fr);
+    grid-template-rows: 70px 1fr  1fr;
+
+    grid-template-areas:      
+        "empty day1 day2 day3"
+        "sidebar m1 m2 m3"
+        "sidebar m4 m5 m6";
+
+    /* gap: 5px; */
+    padding: 5px;
+}
+
+.header {
+    grid-area: header;
+    background: #ddd;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #f5f5f5;
+}
+
+.empty {
+    grid-area: empty;
+}
+
+.day1 {
+    grid-area: day1;
+    display: flex;
+    align-items: center;
+    /* по вертикалі */
+    justify-content: center;
+    /* по горизонталі */
+}
+
+.day2 {
+    grid-area: day2;
+    display: flex;
+    align-items: center;
+    /* по вертикалі */
+    justify-content: center;
+    /* по горизонталі */
+}
+
+.day3 {
+    grid-area: day3;
+    text-align: right;
+
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.line::after {
+    content: "";
+    flex: 0 0 20px;
+    height: 20px;
+    margin-left: auto;
+    background: #d8c9a3;
+}
+
+.m1 {
+    grid-area: m1;    
+    display: flex; 
+    flex-direction: row;  
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.m2 {
+    grid-area: m2;
+}
+
+.m3 {
+    grid-area: m3;
+}
+
+.m4 {
+    grid-area: m4;
+}
+
+.m5 {
+    grid-area: m5;
+}
+
+.m6 {
+    grid-area: m6;
+}
+
+.m4 {
+    grid-area: m4;
+}
+
+.m5 {
+    grid-area: m5;
+}
+
+.m6 {
+    grid-area: m6;
+    display: grid;
+    grid-template-columns: 1fr;
+    /*gap: 5px;*/
+}
+
+.m6-1,
+.m6-2 {
+    border: 2px solid #ccc;
+    padding: 5px;
+    background: #fff;
+    display: block;
+
+    display: flex;
+    align-items:start;    /* по вертикалі */
+    justify-content: right;
+
+}
+
+.layout>* {
+    border: 2px solid #ccc;
+    padding: 5px;
+}
