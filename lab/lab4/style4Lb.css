@@ -10,6 +10,11 @@
     gap: 0px;
     padding: 0px;
 }
+/*.cosom-input{
+    width: 200px;
+    height: 100px;
+    text-align: right;
+}*/
 
 header {
     grid-area: header;
@@ -38,7 +43,7 @@ footer {
 }
 
 .h1 {
-    grid-area: h1;
+    text-align: h1;
 
 }
 
@@ -110,7 +115,7 @@ footer {
     border: 2px solid aliceblue;
     padding: 5px;
     /* background: aliceblue; */
-    display: ;
+    display: 0;
     align-items: start;
     /* по вертикалі */
     justify-content: center;
@@ -140,8 +145,8 @@ footer {
 
 .marker {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     border: 0.2mm solid #333333;
     background-color: transparent;
     margin-right: 50px;
@@ -164,10 +169,11 @@ footer {
 
 .line::after {
     content: "";
-    flex:0 0 10px;
-    height: 10px;
+    flex:0 0 0px;
+    height: 0px;
     margin-left: auto;
     border: 1px solid black;
+
 }
 
 .m1 {
@@ -242,10 +248,39 @@ footer {
     height: 60px;
     background-color: #4caf50;
     color: white;
-
 }
+
+.costom-imput{
+    width: 1005;
+    padding: 12px 16px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.custom-input:focus{
+    border-color: #0066ff;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(0, 102, 255, 0.15);
+}
+.form-group{
+    display:flax;
+    gap: 10px;
+}
+.marker{
+    width: 20px;
+    height: 20px;
+    border: 0.2px solid black;
+    text-align: center;
+}
+
+
 
 
 
 /*justify-times: end;
 ilign-items: end;*/
+
