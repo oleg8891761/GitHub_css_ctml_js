@@ -1,0 +1,21 @@
+/* layout {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 250px repeat(3, 1fr);
+    grid-template-rows: 80px repeat(6, 1fr);
+    grid-template-areas:
+        "h1  h2 h3 h4"
+        "sidebar m1 m2 m3"
+        "sidebar m4 m5 m6";
+    gap: 0px;
+    padding: 0px;
+ */
+
+
+.button-grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1Fr);
+    gap: 16px;
+
+
+}

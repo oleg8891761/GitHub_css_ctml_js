@@ -1,0 +1,856 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positivus | Digital Marketing Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg class="visually-hidden" aria-hidden="true">
+      <symbol id="icon-linkedin" viewBox="0 0 34 34">
+        <circle cx="17" cy="17" r="17" style="fill: var(--icon-bg)" />
+        <path
+          d="M11.3 8.3a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM9.6 14h3.4v11H9.6Zm5.6 0h3.3v1.5c.5-.9 1.6-1.8 3.3-1.8 3.5 0 4.1 2.3 4.1 5.2v6.1h-3.4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.5h-3.4Z"
+          style="fill: var(--icon-fg)"
+        />
+      </symbol>
+    </svg>
+
+    <!-- Header -->
+    <header class="header container">
+      <a href="#" class="header__logo">
+        <img src="images/logo.png" alt="Positivus" width="220" height="56" />
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="header__toggle" />
+      <label for="menu-toggle" class="header__burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="header__nav">
+        <a href="#about" class="header__link">About us</a>
+        <a href="#services" class="header__link">Services</a>
+        <a href="#cases" class="header__link">Use Cases</a>
+        <a href="#" class="header__link">Pricing</a>
+        <a href="#" class="header__link">Blog</a>
+        <a href="#contact" class="btn btn--outline">Request a quote</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero container" id="about">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Navigating the digital landscape for success
+          </h1>
+          <p class="hero__text">
+            Our digital marketing agency helps businesses grow and succeed
+            online through a range of services including SEO, PPC, social media
+            marketing, and content creation.
+          </p>
+          <a href="#contact" class="btn btn--dark">Book a consultation</a>
+        </div>
+        <img
+          class="hero__image"
+          src="images/hero.png"
+          alt="Megaphone illustration"
+          width="601"
+          height="515"
+        />
+      </section>
+
+      <!-- Logos -->
+      <section class="logos container" aria-label="Our clients">
+        <img
+          src="images/logo-amazon.png"
+          alt="Amazon"
+          width="125"
+          height="48"
+        />
+        <img
+          src="images/logo-dribbble.png"
+          alt="Dribbble"
+          width="127"
+          height="48"
+        />
+        <img
+          src="images/logo-hubspot.png"
+          alt="HubSpot"
+          width="129"
+          height="48"
+        />
+        <img
+          src="images/logo-notion.png"
+          alt="Notion"
+          width="146"
+          height="48"
+        />
+        <img
+          src="images/logo-netflix.png"
+          alt="Netflix"
+          width="126"
+          height="48"
+        />
+        <img
+          class="logos__zoom"
+          src="images/logo-zoom.png"
+          alt="Zoom"
+          width="111"
+          height="22"
+        />
+      </section>
+
+      <!-- Services -->
+      <section class="services container" id="services">
+        <div class="section-head">
+          <h2 class="section-head__title">Services</h2>
+          <p class="section-head__text section-head__text--580">
+            At our digital marketing agency, we offer a range of services to
+            help businesses grow and succeed online. These services include:
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service service--grey">
+            <div class="service__body">
+              <h3 class="service__title">
+                <span>Search engine</span><span>optimization</span>
+              </h3>
+              <a href="#" class="service__link"
+                ><img
+                  src="images/arrow-dark.png"
+                  alt=""
+                  width="41"
+                  height="41"
+                /><span>Learn more</span></a
+              >
+            </div>
+            <img
+              class="service__image"
+              src="images/service-seo.png"
+              alt="SEO illustration"
+              width="210"
+              height="167"
+            />
+          </article>
+
+          <article class="service service--green">
+            <div class="service__body">
+              <h3 class="service__title">
+                <span>Pay-per-click</span><span>advertising</span>
+              </h3>
+              <a href="#" class="service__link"
+                ><img
+                  src="images/arrow-dark.png"
+                  alt=""
+                  width="41"
+                  height="41"
+                /><span>Learn more</span></a
+              >
+            </div>
+            <img
+              class="service__image"
+              src="images/service-ppc.png"
+              alt="PPC illustration"
+              width="210"
+              height="148"
+            />
+          </article>
+
+          <article class="service service--dark">
+            <div class="service__body">
+              <h3 class="service__title">
+                <span>Social Media</span><span>Marketing</span>
+              </h3>
+              <a href="#" class="service__link"
+                ><img
+                  src="images/arrow-light.png"
+                  alt=""
+                  width="41"
+                  height="41"
+                /><span>Learn more</span></a
+              >
+            </div>
+            <img
+              class="service__image"
+              src="images/service-smm.png"
+              alt="Social media illustration"
+              width="210"
+              height="210"
+            />
+          </article>
+
+          <article class="service service--grey">
+            <div class="service__body">
+              <h3 class="service__title">
+                <span>Email</span><span>Marketing</span>
+              </h3>
+              <a href="#" class="service__link"
+                ><img
+                  src="images/arrow-dark.png"
+                  alt=""
+                  width="41"
+                  height="41"
+                /><span>Learn more</span></a
+              >
+            </div>
+            <img
+              class="service__image"
+              src="images/service-email.png"
+              alt="Email marketing illustration"
+              width="210"
+              height="193"
+            />
+          </article>
+
+          <article class="service service--green">
+            <div class="service__body">
+              <h3 class="service__title">
+                <span>Content</span><span>Creation</span>
+              </h3>
+              <a href="#" class="service__link"
+                ><img
+                  src="images/arrow-dark.png"
+                  alt=""
+                  width="41"
+                  height="41"
+                /><span>Learn more</span></a
+              >
+            </div>
+            <img
+              class="service__image"
+              src="images/service-content.png"
+              alt="Content creation illustration"
+              width="210"
+              height="196"
+            />
+          </article>
+
+          <article class="service service--dark service--accent">
+            <div class="service__body">
+              <h3 class="service__title">
+                <span>Analytics and</span><span>Tracking</span>
+              </h3>
+              <a href="#" class="service__link"
+                ><img
+                  src="images/arrow-light.png"
+                  alt=""
+                  width="41"
+                  height="41"
+                /><span>Learn more</span></a
+              >
+            </div>
+            <img
+              class="service__image"
+              src="images/service-analytics.png"
+              alt="Analytics illustration"
+              width="210"
+              height="170"
+            />
+          </article>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta container">
+        <div class="cta__card">
+          <div class="cta__content">
+            <h3 class="cta__title">Let’s make things happen</h3>
+            <p class="cta__text">
+              Contact us today to learn more about how our digital marketing
+              services can help your business grow and succeed online.
+            </p>
+            <a href="#contact" class="btn btn--dark">Get your free proposal</a>
+          </div>
+          <img
+            class="cta__image"
+            src="images/cta.png"
+            alt=""
+            width="359"
+            height="395"
+          />
+        </div>
+      </section>
+
+      <!-- Case Studies -->
+      <section class="cases container" id="cases">
+        <div class="section-head">
+          <h2 class="section-head__title">Case Studies</h2>
+          <p class="section-head__text section-head__text--580">
+            Explore Real-Life Examples of Our Proven Digital Marketing Success
+            through Our Case Studies
+          </p>
+        </div>
+
+        <div class="cases__box">
+          <article class="case">
+            <p class="case__text">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a href="#" class="case__link"
+              >Learn more
+              <img src="images/arrow-green.png" alt="" width="21" height="20"
+            /></a>
+          </article>
+          <span class="cases__divider" aria-hidden="true"></span>
+          <article class="case">
+            <p class="case__text">
+              For a B2B software company, we developed an SEO strategy that
+              resulted in a first page ranking for key keywords and a 200%
+              increase in organic traffic.
+            </p>
+            <a href="#" class="case__link"
+              >Learn more
+              <img src="images/arrow-green.png" alt="" width="21" height="20"
+            /></a>
+          </article>
+          <span class="cases__divider" aria-hidden="true"></span>
+          <article class="case">
+            <p class="case__text">
+              For a national retail chain, we created a social media marketing
+              campaign that increased followers by 25% and generated a 20%
+              increase in online sales.
+            </p>
+            <a href="#" class="case__link"
+              >Learn more
+              <img src="images/arrow-green.png" alt="" width="21" height="20"
+            /></a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Working Process -->
+      <section class="process container">
+        <div class="section-head">
+          <h2 class="section-head__title">Our Working Process</h2>
+          <p class="section-head__text section-head__text--292">
+            Step-by-Step Guide to Achieving Your Business Goals
+          </p>
+        </div>
+
+        <div class="process__list">
+          <details class="step" name="process" open>
+            <summary class="step__head">
+              <span class="step__num">01</span>
+              <span class="step__title">Consultation</span>
+              <span class="step__icon" aria-hidden="true"></span>
+            </summary>
+            <p class="step__text">
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </details>
+
+          <details class="step" name="process">
+            <summary class="step__head">
+              <span class="step__num">02</span>
+              <span class="step__title">Research and Strategy Development</span>
+              <span class="step__icon" aria-hidden="true"></span>
+            </summary>
+            <p class="step__text">
+              We research your market, competitors and audience, then build a
+              clear, data-driven strategy with measurable goals and the right
+              mix of channels for your business.
+            </p>
+          </details>
+
+          <details class="step" name="process">
+            <summary class="step__head">
+              <span class="step__num">03</span>
+              <span class="step__title">Implementation</span>
+              <span class="step__icon" aria-hidden="true"></span>
+            </summary>
+            <p class="step__text">
+              Our team launches the campaigns: we set up ads, optimize your
+              website, create content and configure tracking so that every
+              action can be measured.
+            </p>
+          </details>
+
+          <details class="step" name="process">
+            <summary class="step__head">
+              <span class="step__num">04</span>
+              <span class="step__title">Monitoring and Optimization</span>
+              <span class="step__icon" aria-hidden="true"></span>
+            </summary>
+            <p class="step__text">
+              We constantly monitor performance, test new ideas and adjust
+              budgets and targeting to get the best possible return on your
+              investment.
+            </p>
+          </details>
+
+          <details class="step" name="process">
+            <summary class="step__head">
+              <span class="step__num">05</span>
+              <span class="step__title">Reporting and Communication</span>
+              <span class="step__icon" aria-hidden="true"></span>
+            </summary>
+            <p class="step__text">
+              You receive regular, easy-to-read reports and have a dedicated
+              manager who keeps you informed about results and next steps.
+            </p>
+          </details>
+
+          <details class="step" name="process">
+            <summary class="step__head">
+              <span class="step__num">06</span>
+              <span class="step__title">Continual Improvement</span>
+              <span class="step__icon" aria-hidden="true"></span>
+            </summary>
+            <p class="step__text">
+              Digital marketing never stands still, so neither do we: we keep
+              refining the strategy based on data and new opportunities to help
+              your business keep growing.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <!-- Team -->
+      <section class="team container">
+        <div class="section-head">
+          <h2 class="section-head__title">Team</h2>
+          <p class="section-head__text section-head__text--473">
+            Meet the skilled and experienced team behind our successful digital
+            marketing strategies
+          </p>
+        </div>
+
+        <div class="team__grid">
+          <article class="member">
+            <div class="member__top">
+              <img
+                class="member__photo"
+                src="images/team-john.png"
+                alt="John Smith"
+                width="106"
+                height="103"
+              />
+              <div class="member__info">
+                <h4 class="member__name">John Smith</h4>
+                <p class="member__role">CEO and Founder</p>
+              </div>
+              <a href="#" class="member__social" aria-label="LinkedIn"
+                ><svg viewBox="0 0 34 34"><use href="#icon-linkedin"></use></svg
+              ></a>
+            </div>
+            <p class="member__text">
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
+            </p>
+          </article>
+
+          <article class="member">
+            <div class="member__top">
+              <img
+                class="member__photo"
+                src="images/team-jane.png"
+                alt="Jane Doe"
+                width="103"
+                height="103"
+              />
+              <div class="member__info">
+                <h4 class="member__name">Jane Doe</h4>
+                <p class="member__role">Director of Operations</p>
+              </div>
+              <a href="#" class="member__social" aria-label="LinkedIn"
+                ><svg viewBox="0 0 34 34"><use href="#icon-linkedin"></use></svg
+              ></a>
+            </div>
+            <p class="member__text">
+              7+ years of experience in project management and team leadership.
+              Strong organizational and communication skills
+            </p>
+          </article>
+
+          <article class="member">
+            <div class="member__top">
+              <img
+                class="member__photo"
+                src="images/team-michael.png"
+                alt="Michael Brown"
+                width="103"
+                height="103"
+              />
+              <div class="member__info">
+                <h4 class="member__name">Michael Brown</h4>
+                <p class="member__role">Senior SEO Specialist</p>
+              </div>
+              <a href="#" class="member__social" aria-label="LinkedIn"
+                ><svg viewBox="0 0 34 34"><use href="#icon-linkedin"></use></svg
+              ></a>
+            </div>
+            <p class="member__text">
+              5+ years of experience in SEO and content creation. Proficient in
+              keyword research and on-page optimization
+            </p>
+          </article>
+
+          <article class="member">
+            <div class="member__top">
+              <img
+                class="member__photo"
+                src="images/team-emily.png"
+                alt="Emily Johnson"
+                width="103"
+                height="103"
+              />
+              <div class="member__info">
+                <h4 class="member__name">Emily Johnson</h4>
+                <p class="member__role">PPC Manager</p>
+              </div>
+              <a href="#" class="member__social" aria-label="LinkedIn"
+                ><svg viewBox="0 0 34 34"><use href="#icon-linkedin"></use></svg
+              ></a>
+            </div>
+            <p class="member__text">
+              3+ years of experience in paid search advertising. Skilled in
+              campaign management and performance analysis
+            </p>
+          </article>
+
+          <article class="member">
+            <div class="member__top">
+              <img
+                class="member__photo"
+                src="images/team-brian.png"
+                alt="Brian Williams"
+                width="103"
+                height="103"
+              />
+              <div class="member__info">
+                <h4 class="member__name">Brian Williams</h4>
+                <p class="member__role">Social Media Specialist</p>
+              </div>
+              <a href="#" class="member__social" aria-label="LinkedIn"
+                ><svg viewBox="0 0 34 34"><use href="#icon-linkedin"></use></svg
+              ></a>
+            </div>
+            <p class="member__text">
+              4+ years of experience in social media marketing. Proficient in
+              creating and scheduling content, analyzing metrics, and building
+              engagement
+            </p>
+          </article>
+
+          <article class="member">
+            <div class="member__top">
+              <img
+                class="member__photo"
+                src="images/team-sarah.png"
+                alt="Sarah Kim"
+                width="103"
+                height="103"
+              />
+              <div class="member__info">
+                <h4 class="member__name">Sarah Kim</h4>
+                <p class="member__role">Content Creator</p>
+              </div>
+              <a href="#" class="member__social" aria-label="LinkedIn"
+                ><svg viewBox="0 0 34 34"><use href="#icon-linkedin"></use></svg
+              ></a>
+            </div>
+            <p class="member__text">
+              2+ years of experience in writing and editing<br />Skilled in
+              creating compelling, SEO-optimized content for various industries
+            </p>
+          </article>
+        </div>
+
+        <div class="team__more">
+          <a href="#" class="btn btn--dark btn--wide">See all team</a>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="testimonials container">
+        <div class="section-head">
+          <h2 class="section-head__title">Testimonials</h2>
+          <p class="section-head__text section-head__text--473">
+            Hear from Our Satisfied Clients: Read Our Testimonials to Learn More
+            about Our Digital Marketing Services
+          </p>
+        </div>
+
+        <div class="testimonials__box">
+          <div class="testimonials__track">
+            <figure class="review">
+              <blockquote class="review__bubble">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </blockquote>
+              <figcaption class="review__author">
+                <span class="review__name">John Smith</span>Marketing Director
+                at XYZ Corp
+              </figcaption>
+            </figure>
+            <figure class="review">
+              <blockquote class="review__bubble">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </blockquote>
+              <figcaption class="review__author">
+                <span class="review__name">John Smith</span>Marketing Director
+                at XYZ Corp
+              </figcaption>
+            </figure>
+            <figure class="review">
+              <blockquote class="review__bubble">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </blockquote>
+              <figcaption class="review__author">
+                <span class="review__name">John Smith</span>Marketing Director
+                at XYZ Corp
+              </figcaption>
+            </figure>
+            <figure class="review">
+              <blockquote class="review__bubble">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </blockquote>
+              <figcaption class="review__author">
+                <span class="review__name">John Smith</span>Marketing Director
+                at XYZ Corp
+              </figcaption>
+            </figure>
+            <figure class="review">
+              <blockquote class="review__bubble">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </blockquote>
+              <figcaption class="review__author">
+                <span class="review__name">John Smith</span>Marketing Director
+                at XYZ Corp
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="testimonials__nav">
+            <button
+              class="testimonials__arrow testimonials__arrow--prev"
+              type="button"
+              aria-label="Previous"
+            >
+              <svg viewBox="0 0 20 16">
+                <path d="M19 8H1m0 0 7-7M1 8l7 7" />
+              </svg>
+            </button>
+            <div class="testimonials__dots">
+              <button
+                class="testimonials__dot testimonials__dot--active"
+                type="button"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                class="testimonials__dot"
+                type="button"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                class="testimonials__dot"
+                type="button"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                class="testimonials__dot"
+                type="button"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                class="testimonials__dot"
+                type="button"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+            <button
+              class="testimonials__arrow testimonials__arrow--next"
+              type="button"
+              aria-label="Next"
+            >
+              <svg viewBox="0 0 20 16">
+                <path d="M1 8h18m0 0-7-7m7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact container" id="contact">
+        <div class="section-head">
+          <h2 class="section-head__title">Contact Us</h2>
+          <p class="section-head__text section-head__text--323">
+            Connect with Us: Let's Discuss Your Digital Marketing Needs
+          </p>
+        </div>
+
+        <div class="contact__box">
+          <form class="form" action="#" method="post">
+            <div class="form__radios">
+              <label class="radio">
+                <input type="radio" name="type" value="hi" checked />
+                <span class="radio__mark"></span>
+                Say Hi
+              </label>
+              <label class="radio">
+                <input type="radio" name="type" value="quote" />
+                <span class="radio__mark"></span>
+                Get a Quote
+              </label>
+            </div>
+
+            <div class="form__fields">
+              <label class="field">
+                <span class="field__label">Name</span>
+                <input
+                  class="field__input"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                />
+              </label>
+              <label class="field">
+                <span class="field__label">Email*</span>
+                <input
+                  class="field__input"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+              </label>
+              <label class="field">
+                <span class="field__label">Message*</span>
+                <textarea
+                  class="field__input field__input--area"
+                  name="message"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn--dark btn--full">
+              Send Message
+            </button>
+          </form>
+          <img
+            class="contact__image"
+            src="images/contact.png"
+            alt=""
+            width="692"
+            height="649"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer container">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <a href="#"
+            ><img
+              src="images/logo-white.png"
+              alt="Positivus"
+              width="180"
+              height="29"
+          /></a>
+          <nav class="footer__nav">
+            <a href="#about">About us</a>
+            <a href="#services">Services</a>
+            <a href="#cases">Use Cases</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+          </nav>
+          <div class="footer__socials">
+            <a href="#" aria-label="LinkedIn"
+              ><img
+                src="images/social-linkedin.png"
+                alt=""
+                width="30"
+                height="30"
+            /></a>
+            <a href="#" aria-label="Facebook"
+              ><img
+                src="images/social-facebook.png"
+                alt=""
+                width="30"
+                height="30"
+            /></a>
+            <a href="#" aria-label="Twitter"
+              ><img
+                src="images/social-twitter.png"
+                alt=""
+                width="30"
+                height="30"
+            /></a>
+          </div>
+        </div>
+
+        <div class="footer__middle">
+          <div class="footer__contacts">
+            <h4 class="footer__label">Contact us:</h4>
+            <ul class="footer__info">
+              <li>Email:olehdemedovskij@gmail.com</li>
+              <li>Phone:0507627116</li>
+              <li>Address: Ukraine Main St<br /></li>
+            </ul>
+          </div>
+          <form class="subscribe" action="#" method="post">
+            <input
+              class="subscribe__input"
+              type="email"
+              placeholder="Email"
+              aria-label="Email"
+            />
+            <button class="btn btn--green" type="submit">
+              Subscribe to news
+            </button>
+          </form>
+        </div>
+
+        <div class="footer__bottom">
+          <p>© 2026 Positivus. All Rights Reserved.</p>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
