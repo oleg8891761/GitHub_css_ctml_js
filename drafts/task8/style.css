@@ -1,0 +1,15 @@
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.blue-book {
+    display: none;
+}
+
+display: line-block {}

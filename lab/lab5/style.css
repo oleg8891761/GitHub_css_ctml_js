@@ -1,0 +1,37 @@
+background-image::after {
+    url(зображення-1);
+    url(зображення-2);
+}
+
+.wrapper {
+    hight: px;
+}
+
+.wrapper>img {
+    display: block;
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+}
+
+.box {}
+
+.box::before {}
+
+.box::after {}
+
+.box::before {
+    content: It is txt in::after;
+    font-size: 30px;
+    color: teal;
+}
+
+.box:hover::before {
+    color: green;
+}
+
+.box:hover::after {
+    color: tomato;
+}
+
+background-image: liner-gradient(to right)
